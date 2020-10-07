@@ -1,9 +1,13 @@
 {
-  "name": "week3",
-  "version": "0.0.0",
+  "name": "brandon_comp229_a1",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.00.0",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
@@ -16,5 +20,18 @@
     "jquery": "^3.5.1",
     "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonshiwsankar/COMP229A1.git"
+  },
+  "author": "brandon shiwsankar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandonshiwsankar/COMP229A1/issues"
+  },
+  "homepage": "https://github.com/brandonshiwsankar/COMP229A1#readme",
+  "description": ""
 }
