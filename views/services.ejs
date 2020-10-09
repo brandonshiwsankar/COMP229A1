@@ -2,19 +2,35 @@
 
 <%- include partials/main_nav.ejs %>
 
-  <main class="container" style="width: 980px">
-      <div>
-          <h1 class="display-4" style="text-align: center">My <%= title %></h1>
-        </div>
-        <div>
-            <h1>NONE</h1>
-        </div>
-        <div>
+<style>
+    body{
+        background: lightblue;
+        
+    }
+    h3 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+</style>
+
+  <main class="container" style="width: 980px; background: lightcyan">
+    <div>
+         <h1 class="display-4" style="text-align: center">My <%= title %></h1>
+    </div>
+        
+     <h3>General Programming</h3>
             
-        </div>
-        <div>
+    <img id="pic" src="/Assets/images/java.png" alt="Code" width="600" height="300" style="margin-left: 175px">
             
-        </div>
+    <h3>Web Development</h3>
+            
+    <img id="pic" src="/Assets/images/Gprogramming.jpg" alt="Code" width="600" height="300" style="margin-left: 175px">
+
+    <h3>Something</h3>
+       
+    <img id="pic" src="" alt="" width="600" height="300" style="margin-left: 175px">
+          
   </main>
 
 <%- include partials/bottom_nav.ejs %>

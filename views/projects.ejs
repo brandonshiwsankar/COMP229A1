@@ -1,22 +1,43 @@
 <%- include partials/header.ejs %>
 
 <%- include partials/main_nav.ejs %>
+<style>
+    body {
+        background: lightblue;
+    }
+</style>
 
   <main class="container" style="width: 980px">
       <div>
           <h1 class="display-4" style="text-align: center">Welcome to my <%= title %>.</h1>
         </div>
-        <div>
-            <img  src="/Assets/images/p1.png" width="550px" height="300px">
-        </div>
-        <p></p>
-        <div>
-            <img src="/Assets/images/p2.png" width="550px" height="300px">
-        </div>
-        <p></p>
-        <div>
-                <img src="/Assets/images/p3.png" width="550px" height="300px">
-        </div>
+
+    <table style="width: 100%">
+        <tr>
+            <td>
+                <p>Content Here</p>
+            </td>
+            <td>
+                <img id="pic"  src="/Assets/images/p1.png" width="550px" height="300px" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Content Here
+            </td>
+            <td>
+                <img id="pic" src="/Assets/images/p2.png" width="550px" height="300px" style="margin-top: 7px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                 Content Here
+            </td>
+            <td>
+                 <img id="pic" src="/Assets/images/p3.png" width="550px" height="300px" style="margin-top: 7px">
+            </td>
+        </tr>
+    </table>
   </main>
 
 <%- include partials/bottom_nav.ejs %>
